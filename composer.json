@@ -1,0 +1,27 @@
+{
+    "name": "ivopereira/yii2-couchbase",
+
+    "type": "yii2-extension",
+
+    "description": "Yii 2 Couchbase extension. Currently only Connection is supported. ActiveQuery and ActiveRecord are in the roadmap.",
+    "keywords": ["yii2", "couchbase", "database"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ivopereira/yii2-couchbase/issues",
+        "source": "https://github.com/ivopereira/yii2-couchbase"
+    },
+    "authors": [
+        {
+            "name": "Ivo Pereira",
+            "email": "ivo-pereira@msn.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ivopereira\\couchbase\\": ""
+        }
+    }
+}
